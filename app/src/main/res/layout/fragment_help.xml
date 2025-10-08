@@ -12,8 +12,8 @@
         android:layout_height="124dp"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="0dp"
-        android:src="@drawable/background_nav_header"
-        android:contentDescription="@string/help_header"/>
+        android:contentDescription="@string/help_header"
+        android:src="@android:color/holo_blue_dark" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="359dp"
@@ -28,12 +28,12 @@
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
             android:text="@string/help_search"
-            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
             android:textSize="22sp"
-            android:textColor="@color/purple"
-            android:layout_gravity="center_horizontal"/>
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -80,11 +80,11 @@
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center"
                 android:text="@string/faq"
-                android:textColor="@color/purple"
-                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textSize="20sp"
-                android:gravity="center"/>
+                android:textStyle="bold" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -99,13 +99,13 @@
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:text="@string/faq1_header"
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/muted_black"
                     android:layout_marginStart="16dp"
-                    android:layout_marginEnd="16dp"/>
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/faq1_header"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <View
                     android:id="@+id/divider"
@@ -144,7 +144,7 @@
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="16dp"
                     android:text="@string/faq2_header"
-                    android:textColor="@color/muted_black"
+                    android:textColor="@android:color/holo_blue_dark"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
@@ -186,7 +186,7 @@
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="16dp"
                     android:text="@string/faq3_header"
-                    android:textColor="@color/muted_black"
+                    android:textColor="@android:color/holo_blue_dark"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 

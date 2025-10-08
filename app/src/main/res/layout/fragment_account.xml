@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AccountFragment"
+    tools:context=".Account"
     android:layout_marginBottom="8dp">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/imageView6"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="@drawable/background_account">
+        android:background="@android:color/holo_blue_dark">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,43 +22,43 @@
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginBottom="8dp"
                 android:gravity="center_horizontal"
-                android:text="@string/account_header"
-                android:textStyle="bold"
+                android:text="Hesap"
                 android:textColor="@color/white"
-                android:textSize="32sp"/>
+                android:textSize="32sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/welcome"
                 android:src="@drawable/nav_account"
-                app:tint="@color/white"
-                android:contentDescription="@string/welcome"/>
+                app:tint="@color/white" />
 
             <TextView
                 android:id="@+id/userName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_gravity="center_horizontal"
-                android:text="Username"
+                android:layout_marginTop="16dp"
+                android:text="Kullanıcı Adı"
                 android:textColor="@color/white"
-                android:textSize="14sp"/>
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/userEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="user@email.com"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="12dp"
+                android:text="User@email.com"
                 android:textColor="@color/white"
-                android:textSize="13sp"
-                android:layout_marginVertical="12dp"/>
+                android:textSize="13sp" />
         </LinearLayout>
     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -84,14 +84,14 @@
                 android:background="@drawable/background_settings_tabs"
                 android:orientation="horizontal">
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="start|center"
-                        android:paddingHorizontal="8dp"
-                        android:contentDescription="@string/view_more"
-                        android:src="@drawable/account_email"
-                        app:tint="@color/purple" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
+                    android:src="@drawable/account_email"
+                    app:tint="@android:color/holo_blue_dark" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -127,7 +127,7 @@
                 android:layout_width="match_parent"
                 android:layout_marginHorizontal="8dp"
                 android:layout_height="1dp"
-                android:background="@color/purple_500" />
+                android:background="@color/blue_500" />
 
 
             <LinearLayout
@@ -140,10 +140,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/account_smartphone"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -155,12 +155,12 @@
                         android:id="@+id/textView18"
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
                         android:layout_gravity="start|top"
+                        android:layout_weight="1"
                         android:paddingHorizontal="8dp"
-                        android:text="Phone Number"
-                        android:textSize="16sp"
-                        android:textColor="@color/muted_black" />
+                        android:text="Telefon Numarası"
+                        android:textColor="@color/muted_black"
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView28"
@@ -168,9 +168,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="start|bottom"
                         android:paddingHorizontal="8dp"
-                        android:text="12345678"
-                        android:textSize="13sp"
-                        android:textColor="@color/muted_black" />
+                        android:text="***********"
+                        android:textColor="@color/muted_black"
+                        android:textSize="13sp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -179,7 +179,7 @@
                 android:layout_width="match_parent"
                 android:layout_marginHorizontal="8dp"
                 android:layout_height="1dp"
-                android:background="@color/purple_500" />
+                android:background="@color/blue_500" />
 
             <LinearLayout
                 android:id="@+id/passwordChange"
@@ -192,10 +192,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/account_password"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
 
                 <LinearLayout
                     android:layout_width="250dp"
@@ -207,12 +207,12 @@
                         android:id="@+id/textView19"
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
-                        android:layout_weight="1"
                         android:layout_gravity="start|top"
+                        android:layout_weight="1"
                         android:paddingHorizontal="8dp"
-                        android:text="Password"
-                        android:textSize="16sp"
-                        android:textColor="@color/muted_black" />
+                        android:text="Şifre"
+                        android:textColor="@color/muted_black"
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView29"
@@ -234,7 +234,7 @@
                     android:contentDescription="@string/view_more"
                     android:paddingHorizontal="8dp"
                     android:src="@drawable/nav_settings_arrow"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
 
             </LinearLayout>
         </LinearLayout>

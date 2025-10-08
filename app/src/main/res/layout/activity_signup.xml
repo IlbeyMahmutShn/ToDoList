@@ -37,8 +37,8 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="100dp"
                 android:layout_marginBottom="100dp"
-                android:text="Create \nAccount"
-                android:textColor="@color/purple"
+                android:text="Hesap \nOluştur"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textSize="40sp"
                 android:textStyle="bold" />
 
@@ -53,11 +53,11 @@
                 android:drawableStart="@drawable/name"
                 android:drawablePadding="16dp"
                 android:ems="10"
-                android:hint="Name"
+                android:hint="İsim"
                 android:inputType="textPersonName"
                 android:padding="8dp"
-                android:textColor="@color/purple"
-                android:textColorHint="@color/purple" />
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/holo_blue_dark" />
 
             <EditText
                 android:id="@+id/editTextTextEmail"
@@ -73,8 +73,8 @@
                 android:hint="Email"
                 android:inputType="textEmailAddress"
                 android:padding="8dp"
-                android:textColor="@color/purple"
-                android:textColorHint="@color/purple" />
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/holo_blue_dark" />
 
             <EditText
                 android:id="@+id/editTextTextPassword"
@@ -87,11 +87,11 @@
                 android:drawableStart="@drawable/password"
                 android:drawablePadding="16dp"
                 android:ems="10"
-                android:hint="Password"
+                android:hint="Şifre"
                 android:inputType="textPassword"
                 android:padding="8dp"
-                android:textColor="@color/purple"
-                android:textColorHint="@color/purple" />
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/holo_blue_dark" />
 
             <EditText
                 android:id="@+id/editTextTextPassword2"
@@ -104,11 +104,11 @@
                 android:drawableStart="@drawable/password"
                 android:drawablePadding="16dp"
                 android:ems="10"
-                android:hint="Re-Password"
+                android:hint="Şifrenizi Yeniden Giriniz"
                 android:inputType="textPassword"
                 android:padding="8dp"
-                android:textColor="@color/purple"
-                android:textColorHint="@color/purple" />
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/holo_blue_dark" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -125,7 +125,7 @@
                 android:layout_marginTop="32dp"
                 android:text="Already have an account. Sign In!"
                 android:textAlignment="center"
-                android:textColor="@color/purple" />
+                android:textColor="@color/blue" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

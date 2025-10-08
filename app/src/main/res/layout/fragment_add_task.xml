@@ -10,7 +10,7 @@
         android:id="@+id/titleInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Title">
+        android:hint="Başlık">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/titleEditText"
@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="2dp"
-        android:background="@color/purple_500" />
+        android:background="@color/blue_500" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,36 +37,36 @@
             android:layout_width="45dp"
             android:layout_height="45dp"
             android:layout_marginEnd="16dp"
+            android:contentDescription="Select Date"
             android:src="@drawable/task_date"
-            app:tint="@color/purple"
-            android:contentDescription="Select Date"/>
+            app:tint="@android:color/holo_blue_dark" />
 
         <TextView
             android:id="@+id/dateTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Date"
-            android:textSize="20sp"
-            android:layout_marginEnd="56dp"/>
+            android:layout_marginEnd="56dp"
+            android:text="Tarih"
+            android:textSize="20sp" />
 
 
         <ImageView
             android:id="@+id/clockImageView"
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:src="@drawable/task_time"
+            android:layout_marginHorizontal="16dp"
             android:contentDescription="Select Time"
-            app:tint="@color/purple"
-            android:layout_marginHorizontal="16dp"/>
+            android:src="@drawable/task_time"
+            app:tint="@android:color/holo_blue_dark" />
 
         <TextView
             android:id="@+id/timeTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="Time"
-            android:textSize="20sp"
-            android:gravity="right"/>
+            android:gravity="right"
+            android:text="Zaman"
+            android:textSize="20sp" />
 
     </LinearLayout>
 
@@ -84,11 +84,11 @@
                 android:id="@+id/contentEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textMultiLine"
-                android:hint="Content"
                 android:gravity="start"
-                android:minLines="2"
+                android:hint="İçerik"
+                android:inputType="textMultiLine"
                 android:maxLines="3"
+                android:minLines="2"
                 android:scrollbars="vertical" />
         </com.google.android.material.textfield.TextInputLayout>
     </ScrollView>
@@ -97,7 +97,7 @@
         android:id="@+id/saveButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Save"
-        android:textSize="20sp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:text="Kaydet"
+        android:textSize="20sp" />
 </LinearLayout>

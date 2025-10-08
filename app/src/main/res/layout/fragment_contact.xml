@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ContactFragment">
+    tools:context=".Contact">
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/map"
@@ -36,9 +36,9 @@
             android:id="@+id/cardTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Quick Contact"
             android:layout_gravity="center"
-            android:textColor="@color/purple"
+            android:text="Hızlı İletişim"
+            android:textColor="@android:color/holo_blue_dark"
             android:textSize="22sp"
             android:textStyle="bold" />
 
@@ -71,7 +71,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="20dp"
-            android:text="Message"
+            android:text="Mesaj"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
@@ -93,11 +93,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
             android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginBottom="8dp"
-            android:text="Send Message"
-            android:background="@drawable/button_background2"/>
+            android:background="@drawable/button_background2"
+            android:text=" Mesaj Gönder" />
 
         <View
             android:id="@+id/divider2"
@@ -111,9 +111,9 @@
             android:id="@+id/cardTitle2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Social Media"
             android:layout_gravity="center"
-            android:textColor="@color/purple"
+            android:text="Social Media"
+            android:textColor="@android:color/holo_blue_dark"
             android:textSize="16sp"
             android:textStyle="bold" />
 

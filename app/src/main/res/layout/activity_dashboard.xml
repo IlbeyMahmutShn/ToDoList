@@ -16,13 +16,13 @@
         android:orientation="vertical">
 
         <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:id="@+id/toolbar"
+            android:background="@android:color/holo_blue_dark"
             android:elevation="4dp"
-            android:background="@drawable/background_nav_header"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
         <FrameLayout
             android:id="@+id/fragment_container"
@@ -38,7 +38,7 @@
         android:layout_gravity="start"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/nav_menu"
-        app:itemIconTint="@color/purple"
-        app:itemTextColor="@color/purple"/>
+        app:itemIconTint="@color/blue"
+        app:itemTextColor="@color/blue"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>

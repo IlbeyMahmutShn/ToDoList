@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".SettingsFragment"
+    tools:context=".Settings"
     android:layout_marginHorizontal="16dp"
     android:layout_marginBottom="8dp">
 
@@ -14,9 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/settings_header"
-        android:textStyle="bold"
-        android:textColor="@color/purple"
-        android:textSize="32sp"/>
+        android:textSize="32sp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,7 +37,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="16dp"
                 android:text="@string/help_search"
-                android:textColor="@color/purple"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -92,10 +91,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/settings_language"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
 
                 <TextView
                     android:id="@+id/textView17"
@@ -112,10 +111,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|right"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/nav_settings_arrow"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
             </LinearLayout>
 
             <View
@@ -123,7 +122,7 @@
                 android:layout_width="match_parent"
                 android:layout_marginHorizontal="8dp"
                 android:layout_height="1dp"
-                android:background="@color/purple_500" />
+                android:background="@color/blue_500" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -135,10 +134,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/settings_dark_mode"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
 
                 <TextView
                     android:id="@+id/textView18"
@@ -156,9 +155,9 @@
                     android:layout_width="20dp"
                     android:layout_height="48dp"
                     android:layout_gravity="center|end"
+                    android:layout_weight="1"
                     android:paddingHorizontal="8dp"
-                    app:tint="@color/purple"
-                    android:layout_weight="1"/>
+                    app:tint="@android:color/holo_blue_dark" />
             </LinearLayout>
 
             <View
@@ -166,7 +165,7 @@
                 android:layout_width="match_parent"
                 android:layout_marginHorizontal="8dp"
                 android:layout_height="1dp"
-                android:background="@color/purple_500" />
+                android:background="@color/blue_500" />
 
             <LinearLayout
                 android:id="@+id/accountButton"
@@ -179,10 +178,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/nav_account"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
 
                 <TextView
                     android:id="@+id/textView19"
@@ -199,10 +198,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|end"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/nav_settings_arrow"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
             </LinearLayout>
 
             <View
@@ -210,7 +209,7 @@
                 android:layout_width="match_parent"
                 android:layout_marginHorizontal="8dp"
                 android:layout_height="1dp"
-                android:background="@color/purple_500" />
+                android:background="@color/blue_500" />
 
             <LinearLayout
                 android:id="@+id/privacyButton"
@@ -223,10 +222,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/settings_security"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
 
                 <TextView
                     android:id="@+id/textView20"
@@ -243,10 +242,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|end"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/nav_settings_arrow"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
             </LinearLayout>
 
             <View
@@ -254,7 +253,7 @@
                 android:layout_width="match_parent"
                 android:layout_marginHorizontal="8dp"
                 android:layout_height="1dp"
-                android:background="@color/purple_500" />
+                android:background="@color/blue_500" />
 
             <LinearLayout
                 android:id="@+id/helpButton"
@@ -267,10 +266,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/settings_help_support"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
 
                 <TextView
                     android:id="@+id/textView21"
@@ -287,10 +286,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|end"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/nav_settings_arrow"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
             </LinearLayout>
 
             <View
@@ -298,7 +297,7 @@
                 android:layout_width="match_parent"
                 android:layout_marginHorizontal="8dp"
                 android:layout_height="1dp"
-                android:background="@color/purple_500" />
+                android:background="@color/blue_500" />
 
             <LinearLayout
                 android:id="@+id/aboutButton"
@@ -311,10 +310,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/nav_about"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
 
                 <TextView
                     android:id="@+id/textView22"
@@ -331,10 +330,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|right"
-                    android:paddingHorizontal="8dp"
                     android:contentDescription="@string/view_more"
+                    android:paddingHorizontal="8dp"
                     android:src="@drawable/nav_settings_arrow"
-                    app:tint="@color/purple" />
+                    app:tint="@android:color/holo_blue_dark" />
             </LinearLayout>
 
             <View
@@ -342,7 +341,7 @@
                 android:layout_width="match_parent"
                 android:layout_marginHorizontal="8dp"
                 android:layout_height="1dp"
-                android:background="@color/purple_500" />
+                android:background="@color/blue_500" />
         </LinearLayout>
     </LinearLayout>
 

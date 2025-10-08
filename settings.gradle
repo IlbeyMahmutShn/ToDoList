@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "TaskPro"
+rootProject.name = "ToDoList"
 include ':app'

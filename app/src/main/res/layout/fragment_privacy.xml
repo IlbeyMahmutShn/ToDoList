@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PrivacyFragment"
+    tools:context=".Privacy"
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     android:layout_marginBottom="8dp">
@@ -15,9 +15,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/ppolicy_header"
-        android:textStyle="bold"
-        android:textColor="@color/purple"
-        android:textSize="32sp"/>
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="32sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView16"
@@ -42,7 +42,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:background="@drawable/background_privacy_tabs"
+            android:background="@android:color/holo_blue_dark"
             android:orientation="horizontal">
 
             <TextView
@@ -68,7 +68,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:background="@drawable/background_privacy_tabs"
+            android:background="@android:color/holo_blue_dark"
             android:orientation="horizontal">
 
             <TextView
@@ -94,7 +94,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:background="@drawable/background_privacy_tabs"
+            android:background="@android:color/holo_blue_dark"
             android:orientation="horizontal">
 
             <TextView
@@ -120,7 +120,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:background="@drawable/background_privacy_tabs"
+            android:background="@android:color/holo_blue_dark"
             android:orientation="horizontal">
 
             <TextView
@@ -146,7 +146,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:background="@drawable/background_privacy_tabs"
+            android:background="@android:color/holo_blue_dark"
             android:orientation="horizontal">
 
             <TextView
@@ -176,10 +176,10 @@
         android:layout_width="match_parent"
         android:layout_height="20dp"
         android:layout_below="@+id/PrivacyPolicyItems"
-        android:text="Effective from May 2023"
-        android:textStyle="italic"
+        android:text="Ocak 2025'ten itibaren geçerlidir"
         android:textAlignment="textEnd"
-        android:textColor="@color/muted_black"/>
+        android:textColor="@color/muted_black"
+        android:textStyle="italic" />
 
 
 </RelativeLayout>
